@@ -1,0 +1,33 @@
+{
+  "name": "react-crazy-ui",
+  "version": "1.0.0",
+  "description": "React crazy ui is a library of custom hooks for React, designed to simplify common tasks in both JavaScript and TypeScript projects",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chaudev/react-crazy-ui.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "crazy-ui",
+    "react-crazy-ui",
+    "react-ui",
+    "typescript",
+    "library"
+  ],
+  "author": "Nguyen Chau (chaudev)",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "@types/react": "^17.0.2",
+    "typescript": "^4.2.3"
+  }
+}
