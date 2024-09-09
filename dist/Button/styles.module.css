@@ -1,0 +1,108 @@
+/**
+ * @author Nguyen Phuc Bao Chau
+ * 
+ * @create date 2024-09-06 17:19:11
+ * @modify date 2024-09-09 11:44:01
+ */
+.crazy-button {
+	background-color: #e5e5e5; /* transparent 0.1 */
+	height: 36px;
+	min-width: 36px;
+	padding-left: 8px;
+	padding-right: 8px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 4px;
+	border-radius: 6px;
+	font-weight: 600;
+	font-size: 15px;
+	color: #000;
+}
+.opa-50 {
+	opacity: 0.5;
+}
+.btn-transparent {
+	background-color: transparent;
+}
+.btn-create {
+	background-color: #4caf50;
+	color: #fff;
+	fill: #fff;
+}
+.btn-save {
+	background-color: #0989ff;
+	color: #fff;
+	fill: #fff;
+}
+.btn-edit {
+	background-color: #0e9de0;
+	color: #fff;
+	fill: #fff;
+}
+.btn-delete {
+	background-color: #ff595e;
+	color: #fff;
+	fill: #fff;
+}
+.btn-export {
+	background-color: #f77f35;
+	color: #fff;
+	fill: #fff;
+}
+.btn-warning {
+	background-color: #ffba0a;
+	color: #000;
+	fill: #000;
+}
+.btn-purple {
+	background-color: #8e24aa;
+	color: #fff;
+	fill: #fff;
+}
+.hover-opacity:hover {
+	opacity: 0.9;
+}
+.hover-opacity:active {
+	opacity: 1;
+}
+.hover-scale-out {
+	transition: transform 0.05s ease-in-out;
+}
+.hover-scale-out:hover {
+	transform: scale(1.03);
+}
+.hover-scale-out:active {
+	transform: scale(1);
+}
+.hover-scale-in {
+	transition: transform 0.05s ease-in-out;
+}
+.hover-scale-in:hover {
+	transform: scale(0.97);
+}
+.hover-scale-in:active {
+	transform: scale(1);
+}
+.desktop {
+	display: none;
+}
+@media (min-width: 800px) {
+	.desktop {
+		display: inline;
+	}
+}
+.loading {
+	animation: spin 1s linear infinite;
+	width: 15px;
+	height: 15px;
+	margin-right: 2px;
+}
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}

@@ -1,0 +1,81 @@
+/**
+ * @author Nguyen Phuc Bao Chau
+ * 
+ * @create date 2024-09-09 11:58:23
+ * @modify date 2024-09-09 11:58:23 
+ */
+.tag {
+  font-weight: 500;
+  height: 24px;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.pink-tag {
+  background: linear-gradient(to right, #f41e92, #ca1277);
+  color: #fff;
+}
+
+.blue-tag {
+  background: linear-gradient(to right, #2586ed, #1d6fc7);
+  color: #fff;
+}
+
+.red-tag {
+  background: linear-gradient(to right, #e53935, #d22e2b);
+  color: #fff;
+}
+
+.orange-tag {
+  background: linear-gradient(to right, #f77f35, #dd6820);
+  color: #fff;
+}
+
+.green-tag {
+  background: linear-gradient(to right, #4caf50, #388e3c);
+  color: #fff;
+}
+
+.yellow-tag {
+  background: linear-gradient(to right, #ffba0a, #e7ab11);
+  color: #000;
+}
+
+.black-tag {
+  background: linear-gradient(to right, #000000, #000000);
+  color: #fff;
+}
+
+.white-tag {
+  background: linear-gradient(to right, #fff, #fff);
+  color: #000;
+}
+
+.dark-tag {
+  background: linear-gradient(to right, #c9c9c9, #b0b0b0);
+  color: #000;
+}
+
+.turquoise-tag {
+  background: linear-gradient(to right, #00bcd4, #00acc1);
+  color: #000;
+}
+
+.teal-tag {
+  background: linear-gradient(to right, #009688, #00897b);
+  color: #fff;
+}
+
+.deeppurple-tag {
+  background: linear-gradient(to right, #673ab7, #5e35b1);
+  color: #fff;
+}
+
+.purple-tag {
+  background: linear-gradient(to right, #9c27b0, #8e24aa);
+  color: #fff;
+}
